@@ -1,0 +1,99 @@
+name: Epic (SAFe)
+description: Propose a large scientific software Epic (≥ 0.25 FTY)
+title: "[Epic]: "
+labels:
+  - epic
+  - funnel
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Epic Overview
+        Use this form to propose a **large scientific software Epic**
+        aligned with SAFe (≥ 0.25 FTY).
+
+  - type: input
+    id: funnel_entry_date
+    attributes:
+      label: Funnel Entry Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: input
+    id: epic_owner
+    attributes:
+      label: Epic Owner
+      description: Person best positioned to provide requirements and represent users
+    validations:
+      required: true
+
+  - type: textarea
+    id: stakeholders
+    attributes:
+      label: Key Stakeholders
+      description: Scientists, user groups, project or product managers
+
+  - type: textarea
+    id: epic_description
+    attributes:
+      label: Epic Description
+      description: For / Who / What / Why
+      placeholder: |
+        For <users or groups>
+        who <do something>
+        the <software / tool / service>
+        is a <short description>
+        that <provides value>
+        unlike <current solution>
+        our solution <does something better>
+    validations:
+      required: true
+
+  - type: dropdown
+    id: epic_type
+    attributes:
+      label: Type of Epic
+      options:
+        - Business Epic
+        - Enabler Epic
+    validations:
+      required: true
+
+  - type: textarea
+    id: measurable_benefits
+    attributes:
+      label: Measurable ISIS Benefits
+      description: Quantitative or qualitative benefits to ISIS
+    validations:
+      required: true
+
+  - type: textarea
+    id: features_in_scope
+    attributes:
+      label: Features in Scope
+    validations:
+      required: true
+
+  - type: textarea
+    id: mvp_description
+    attributes:
+      label: MVP Description
+      description: Smallest experiment that demonstrates the benefit
+    validations:
+      required: true
+
+  - type: dropdown
+    id: full_cost_range
+    attributes:
+      label: Estimated Full Implementation Cost (FTY)
+      options:
+        - 0.2–0.6 FTY
+        - 1–2 FTY
+        - 2.5–4 FTY
+        - 5–8 FTY
+        - 10–15 FTY
+        - 20+ FTY
+    validations:
+      required: true
