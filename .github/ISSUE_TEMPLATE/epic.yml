@@ -26,8 +26,6 @@ body:
     attributes:
       label: Epic Owner
       description: Person best positioned to provide requirements and represent users
-    validations:
-      required: true
 
   - type: textarea
     id: stakeholders
@@ -48,8 +46,6 @@ body:
         that <provides value>
         unlike <current solution>
         our solution <does something better>
-    validations:
-      required: true
 
   - type: dropdown
     id: epic_type
@@ -58,31 +54,23 @@ body:
       options:
         - Business Epic
         - Enabler Epic
-    validations:
-      required: true
 
   - type: textarea
     id: measurable_benefits
     attributes:
       label: Measurable ISIS Benefits
       description: Quantitative or qualitative benefits to ISIS
-    validations:
-      required: true
 
   - type: textarea
     id: features_in_scope
     attributes:
       label: Features in Scope
-    validations:
-      required: true
 
   - type: textarea
     id: mvp_description
     attributes:
       label: MVP Description
       description: Smallest experiment that demonstrates the benefit
-    validations:
-      required: true
 
   - type: dropdown
     id: full_cost_range
@@ -95,5 +83,3 @@ body:
         - 5–8 FTY
         - 10–15 FTY
         - 20+ FTY
-    validations:
-      required: true
