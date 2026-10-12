@@ -1,4 +1,4 @@
-name: Epic (SAFe)
+name: Epic (based on v2.2 Jan 2025 ISIS)
 description: Propose a large scientific software Epic (≥ 0.25 FTY)
 title: "[Epic]: "
 labels:
@@ -10,8 +10,8 @@ body:
     attributes:
       value: |
         ## Epic Overview
-        Use this form to propose a **large scientific software Epic**
-        aligned with SAFe (≥ 0.25 FTY).
+        Use this form to propose a **large scientific software Epic** (≥ 0.25 FTY).
+        Adaptation of combining the two SAFe template forms into one targeting scientific software at ISIS Neutron and Muon Facility.
 
   - type: input
     id: funnel_entry_date
@@ -58,8 +58,8 @@ body:
   - type: textarea
     id: measurable_benefits
     attributes:
-      label: Measurable ISIS Benefits
-      description: Quantitative or qualitative benefits to ISIS
+      label: Measurable Benefits
+      description: Quantitative or qualitative benefits to research facility
 
   - type: textarea
     id: features_in_scope
