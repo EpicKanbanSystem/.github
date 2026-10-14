@@ -1,4 +1,4 @@
-name: Epic (based on v2.2 Jan 2025 ISIS)
+name: Epic (for testing with LENS WP4)
 description: Propose a large scientific software Epic (≥ 0.25 FTY)
 title: "[Epic]: "
 labels:
@@ -11,7 +11,10 @@ body:
       value: |
         ## Epic Overview
         Use this form to propose a **large scientific software Epic** (≥ 0.25 FTY).
-        Adaptation of combining the two SAFe template forms into one targeting scientific software at ISIS Neutron and Muon Facility.
+        This form was setup for a trial with LENS (League of European Neutron
+        Sources) Work-Package 4. It includes a subset of the fields of the adaptation done at the
+        ISIS facility that combined the two SAFe templates into one targeting scientific software,
+        specifically version 2.2 Jan 2025 of this.
 
   - type: input
     id: funnel_entry_date
